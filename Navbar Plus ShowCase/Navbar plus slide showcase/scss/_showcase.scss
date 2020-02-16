@@ -1,0 +1,62 @@
+.showcase {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  .showcase_inner {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin: 0 auto;
+    .showcase_title {
+      font-family: Montserrat, Arial, Helvetica, sans-serif;
+      font-size: 7vw;
+      color: $primary-clr-dark;
+    }
+    .showcase_desc {
+      font-family: Montserrat, Arial;
+      font-size: 5vw;
+      font-weight: 500;
+    }
+    img {
+      display: block;
+      width: 75%;
+      margin: 0 auto;
+    }
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 769px) {
+  .showcase {
+    .showcase_inner {
+      .showcase_title {
+        font-size: 5vw;
+      }
+      .showcase_desc {
+        font-size: 3vw;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .showcase {
+    .showcase_inner {
+      margin-top: 10vh;
+      .showcase_title {
+        font-size: 4vw;
+      }
+      .showcase_desc {
+        font-family: Montserrat, Arial;
+        font-size: 2vw;
+      }
+      img {
+        display: block;
+        width: 50%;
+        max-width: 612px;
+        margin: 0 auto;
+      }
+    }
+  }
+}
