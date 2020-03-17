@@ -1,0 +1,243 @@
+/* favorite colors */
+
+/* light colors */
+$default: #f7f7f7;
+
+$gray: #e9ecef;
+$secondary: #292b2c;
+$whitish: #f3f3f3;
+$blue-light: #0085c6;
+$yellow-light: rgb(245, 238, 141);
+$black-light: #333333;
+$green-light: #d3eda3;
+$red-light: #f5ab9e;
+$purple-light: #ddaeff;
+$orange-light: #f57b00;
+
+/* bold colors */
+$blue: #1f8dd6;
+$black: #0a0a0a;
+$purple: #8058a5;
+$green: #5eb95e;
+$red: #dd514c;
+$orange: #f37b1d;
+$yellow: #fad232;
+
+/* Social media colors */
+$google-clr: #db4437;
+$google-plus-clr: rgb(221, 75, 57);
+$fb-clr: rgb(59, 89, 153);
+$twitter-clr: rgb(85, 172, 238);
+$quora-clr: rgb(185, 43, 39);
+$red: rgb(185, 43, 39);
+$medium-clr: rgb(2, 184, 117);
+$instagram-clr: rgb(228, 64, 95);
+$dribble-clr: rgb(234, 76, 137);
+$snapchat-clr: rgb(255, 252, 0);
+
+/* color-text */
+.default-text {
+  color: $default !important;
+}
+.blue-text {
+  color: $blue !important;
+}
+.gray-text {
+  color: $gray !important;
+}
+.yellow-text {
+  color: $yellow !important;
+}
+.black-text {
+  color: $black !important;
+}
+.green-text {
+  color: $green !important;
+}
+.red-text {
+  color: $red !important;
+}
+.purple-text {
+  color: $purple !important;
+}
+.orange-text {
+  color: $orange !important;
+}
+.whitish-text {
+  color: $whitish !important;
+}
+
+/* color-bg */
+.default-bg {
+  background-color: $default !important;
+}
+.gray-bg {
+  background-color: $gray !important;
+}
+.light-blue-bg {
+  background-color: $blue-light;
+}
+.blue-bg {
+  background-color: $blue-light !important;
+}
+.yellow-bg {
+  background-color: $yellow-light !important;
+}
+.black-bg {
+  background-color: $black-light !important;
+  color: $default;
+}
+.green-bg {
+  background-color: $green-light !important;
+}
+.red-bg {
+  background-color: $red-light !important;
+}
+.purple-bg {
+  background-color: $purple-light !important;
+}
+.orange-bg {
+  background-color: $orange-light !important;
+  color: $default;
+}
+
+.whitish-bg {
+  background-color: $whitish !important;
+}
+
+.button {
+  padding: 0.75rem 2rem;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 1rem;
+  line-height: 1;
+  text-align: center;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+.button-small {
+  padding: 0.5rem 1.75rem;
+}
+
+.button-large {
+  padding: 1rem 3rem;
+  font-size: 1.25rem;
+}
+
+.button-full {
+  display: block;
+  margin: 0.5rem 0;
+  width: 100%;
+  font-size: 1.1rem;
+}
+
+.button-red {
+  background-color: $quora-clr;
+  color: $default;
+  &:hover {
+    background-color: rgb(150, 31, 26);
+  }
+}
+.button-red-o {
+  border: 1px solid $quora-clr;
+  background-color: #ffffff;
+  color: $quora-clr;
+  &:hover {
+    background-color: rgb(150, 31, 26);
+    color: $default;
+  }
+}
+
+.button-blue {
+  background-color: $fb-clr;
+  color: $default;
+  &:hover {
+    background-color: rgb(36, 63, 122);
+  }
+}
+.button-blue-o {
+  border: 1px solid $fb-clr;
+  background-color: #ffffff;
+  color: $fb-clr;
+  &:hover {
+    background-color: rgb(36, 63, 122);
+    color: $default;
+  }
+}
+
+.button-green {
+  background-color: $medium-clr;
+  color: $default;
+  &:hover {
+    background-color: rgb(22, 145, 100);
+  }
+}
+
+.button-green-o {
+  border: 1px solid $medium-clr;
+  background-color: #ffffff;
+  color: $medium-clr;
+  &:hover {
+    background-color: rgb(22, 145, 100);
+    color: $default;
+  }
+}
+
+.button-black {
+  background-color: $secondary;
+  color: $default;
+  &:hover {
+    background-color: #0f0f0f;
+  }
+}
+.button-black-o {
+  border: 1px solid $secondary;
+  background-color: #ffffff;
+  color: $secondary;
+  &:hover {
+    background-color: #0f0f0f;
+    color: $default;
+  }
+}
+
+.button-yellow {
+  background-color: rgb(228, 214, 17);
+  &:hover {
+    background-color: rgb(184, 173, 19);
+  }
+}
+
+.button-orange {
+  background-color: $orange !important;
+  color: #ffffff !important;
+  &:hover {
+    background-color: #c26620 !important;
+  }
+}
+.button-orange-o {
+  border: 1px solid $orange;
+  background-color: #ffffff;
+  color: $orange;
+  &:hover {
+    background-color: $orange;
+    color: $default;
+  }
+}
+
+.button-default {
+  background-color: #e0d7d7;
+  color: $secondary;
+  &:hover {
+    background-color: #b9afaf;
+  }
+}
+.button-default-o {
+  border: 1px solid #8c9aa0;
+  background-color: #ffffff;
+  color: #8c9aa0;
+  &:hover {
+    background-color: #8c9aa0;
+    color: $default;
+  }
+}
